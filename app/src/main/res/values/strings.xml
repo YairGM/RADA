@@ -1,0 +1,177 @@
+<resources>
+    <string name="app_name">Mueblera RADA</string>
+    <string name="Producto">Nombre de producto</string>
+    <string-array name="tipolinea">
+        <item>Seleccione linea</item>
+        <item>Colchones</item>
+        <item>Camas</item>
+        <item>Bicicletas</item>
+        <item>Enseres</item>
+        <item>Electronica</item>
+        <item>Linea blanca</item>
+    </string-array>
+    <string-array name="Clave_producto">
+        <item>INTENSSE IND</item>
+        <item>KEN 2 IND</item>
+        <item>NATIVE IND</item>
+        <item>TEO IND</item>
+        <item>TUTTI FRUT M</item>
+        <item>VERANO R MAT</item>
+        <item>ATHENAS IND</item>
+        <item>ASPEN MAT</item>
+        <item>GALERY IND</item>
+        <item>HOTELERO IND</item>
+        <item>IBIZA IND</item>
+        <item>NOTTINGHAM I</item>
+        <item>BSKSV4CHO</item>
+        <item>CATRE 507</item>
+        <item>DANUBIO IND</item>
+        <item>ECUADOR MT</item>
+        <item>SEVILLA MT R</item>
+        <item>CUTY R16</item>
+        <item>LONDON R700</item>
+        <item>SPYRO R-16</item>
+        <item>SWEETGIRLR20</item>
+        <item>TROYA R16</item>
+        <item>CYCLONE</item>
+        <item>FREAL 2020</item>
+        <item>VP-00018TG</item>
+        <item>BAT DELUXE</item>
+        <item>SC-CMAX100LM</item>
+        <item>TC-43FS510X</item>
+        <item>VP-00018TG</item>
+        <item>55UM7400PUA</item>
+        <item>VP-DP-132</item>
+        <item>FST-GTK371P</item>
+        <item>MCS-9930BT</item>
+        <item>MSA-5815</item>
+        <item>MSA-6112</item>
+        <item>MSA-7908BTE</item>
+        <item>MSA-7912BTE</item>
+        <item>TRI-1002</item>
+        <item>HYLED4021NIM</item>
+        <item>HYLED5014N4K</item>
+        <item>CM5041B</item>
+        <item>CM7631I</item>
+        <item>CM8041B</item>
+        <item>DEM7673CFIX</item>
+        <item>EM5032BAPS0</item>
+        <item>EM5041BAIS0</item>
+        <item>EM5046CAIX0</item>
+        <item>EM7657CSIS0</item>
+        <item>EMM2PB</item>
+        <item>HTM09R</item>
+        <item>LMA70214VBAB</item>
+        <item>MA0C80500CI0</item>
+        <item>RMA1130XMFB0</item>
+        <item>RMS400IVMRE0</item>
+        <item>EI3032BAPN0</item>
+        <item>PIG5101LO</item>
+        <item>PSI45BB</item>
+        <item>LIQ1220B0</item>
+        <item>LRE18V0</item>
+        <item>PNM25FSKCSS</item>
+        <item>DACE-EAM01</item>
+        <item>EK-501F</item>
+        <item>LR-2213P</item>
+        <item>WD-6K2</item>
+        <item>WSA1302P</item>
+        <item>DFR-9010DMX</item>
+        <item>DWF-DG1B386C</item>
+        <item>KOR-660W</item>
+        <item>KOR-661W</item>
+        <item>NN-SB636WRUH</item>
+    </string-array>
+    <string-array name="tiposalida">
+        <item>Seleccione motivo de salida</item>
+        <item>Venta</item>
+        <item>Retiro de almacen</item>
+        <item>Desperfecto</item>
+        <item>Devolucion</item>
+        <item>Cambios</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="Colchones">
+        <item>INTENSSE IND</item>
+        <item>KEN 2 IND</item>
+        <item>NATIVE IND</item>
+        <item>TEO IND</item>
+        <item>TUTTI FRUT M</item>
+        <item>VERANO R MAT</item>
+        <item>ATHENAS IND</item>
+        <item>ASPEN MAT</item>
+        <item>GALERY IND</item>
+        <item>HOTELERO IND</item>
+        <item>IBIZA IND</item>
+        <item>NOTTINGHAM I</item>
+    </string-array>
+    <string-array name="Camas">
+        <item>BSKSV4CHO</item>
+        <item>CATRE 507</item>
+        <item>DANUBIO IND</item>
+        <item>ECUADOR MT</item>
+        <item>SEVILLA MT R</item>
+    </string-array>
+    <string-array name="Bicicletas">
+        <item>CUTY R16</item>
+        <item>LONDON R700</item>
+        <item>SPYRO R-16</item>
+        <item>SWEETGIRLR20</item>
+        <item>TROYA R16</item>
+    </string-array>
+    <string-array name="Enseres">
+        <item>CYCLONE</item>
+        <item>FREAL 2020</item>
+        <item>VP-00018TG</item>
+        <item>BAT DELUXE</item>
+    </string-array>
+    <string-array name="Electronica">
+        <item>SC-CMAX100LM</item>
+        <item>TC-43FS510X</item>
+        <item>VP-00018TG</item>
+        <item>55UM7400PUA</item>
+        <item>VP-DP-132</item>
+        <item>FST-GTK371P</item>
+        <item>MCS-9930BT</item>
+        <item>MSA-5815</item>
+        <item>MSA-6112</item>
+        <item>MSA-7908BTE</item>
+        <item>MSA-7912BTE</item>
+        <item>TRI-1002</item>
+        <item>HYLED4021NIM</item>
+        <item>HYLED5014N4K</item>
+    </string-array>
+    <string-array name="LineaBlanca">
+        <item>CM5041B</item>
+        <item>CM7631I</item>
+        <item>CM8041B</item>
+        <item>DEM7673CFIX</item>
+        <item>EM5032BAPS0</item>
+        <item>EM5041BAIS0</item>
+        <item>EM5046CAIX0</item>
+        <item>EM7657CSIS0</item>
+        <item>EMM2PB</item>
+        <item>HTM09R</item>
+        <item>LMA70214VBAB</item>
+        <item>MA0C80500CI0</item>
+        <item>RMA1130XMFB0</item>
+        <item>RMS400IVMRE0</item>
+        <item>EI3032BAPN0</item>
+        <item>PIG5101LO</item>
+        <item>PSI45BB</item>
+        <item>LIQ1220B0</item>
+        <item>LRE18V0</item>
+        <item>PNM25FSKCSS</item>
+        <item>DACE-EAM01</item>
+        <item>EK-501F</item>
+        <item>LR-2213P</item>
+        <item>WD-6K2</item>
+        <item>WSA1302P</item>
+        <item>DFR-9010DMX</item>
+        <item>DWF-DG1B386C</item>
+        <item>KOR-660W</item>
+        <item>KOR-661W</item>
+        <item>NN-SB636WRUH</item>
+    </string-array>
+
+</resources>
