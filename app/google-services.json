@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460021777129",
+    "firebase_url": "https://rada-muebleria.firebaseio.com",
+    "project_id": "rada-muebleria",
+    "storage_bucket": "rada-muebleria.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460021777129:android:bb7948d5a731c433c16678",
+        "android_client_info": {
+          "package_name": "com.yair.radamuebleria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460021777129-a9s5g0273feefp0o2pl3qk6q0iagb873.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI6_yqhQ-pHhbPmX494aNeS1yu6gQVwbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460021777129-a9s5g0273feefp0o2pl3qk6q0iagb873.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

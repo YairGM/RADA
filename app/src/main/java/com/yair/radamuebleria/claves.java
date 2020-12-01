@@ -1,16 +1,22 @@
 package com.yair.radamuebleria;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 
 public class claves extends Activity {
     private Spinner lineas;
     private ListView codigos;
+
+    private Button regresarClaves;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,14 @@ public class claves extends Activity {
 
         lineas=(Spinner)findViewById(R.id.linea);
         codigos=(ListView)findViewById(R.id.list_view_codigos);
+        regresarClaves = (Button) findViewById(R.id.btnRegresoExistenciaClaves);
+
+        regresarClaves.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(claves.this,MainActivity.class));
+            }
+        });
 
         ArrayAdapter spinAdap=ArrayAdapter.createFromResource(this,R.array.tipolinea, android.R.layout.simple_spinner_item);
 
