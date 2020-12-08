@@ -116,8 +116,8 @@ public class registro_salidas extends AppCompatActivity {
         String Motivo = motivo.getSelectedItem().toString();
         String Autoriza = autoriza.getText().toString();
 
-        if (lineass.equals("")||clavess.equals("")||motivo.equals("")||autoriza.equals("")){
-            validacion();
+        if (autoriza.getText().toString().length()==0||lineass.equals("")||clavess.equals("")||motivo.equals("")){
+            autoriza.setError("Ingresar nombre de quien autoriza");
         }
         else {
             Salidas p = new Salidas();
@@ -127,7 +127,7 @@ public class registro_salidas extends AppCompatActivity {
             p.setmotivoSalida(Motivo);
             p.setautoriza(Autoriza);
             databaseReference.child("Salidas").child(p.getUid()).setValue(p);
-            Toast.makeText(this, "Salida de producto", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Salida de producto registrado", Toast.LENGTH_LONG).show();
             limpiarCajas();
         }
 

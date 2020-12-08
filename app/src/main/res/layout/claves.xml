@@ -6,44 +6,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tipo de linea"
-            android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de linea"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
-        <Spinner
-            android:id="@+id/linea"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:entries="@array/tipolinea"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.129"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.336"
-            tools:ignore="MissingConstraints"></Spinner>
+    <Spinner
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipolinea"
+        android:scrollbarStyle="insideOverlay"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        tools:ignore="MissingConstraints"></Spinner>
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Codigos de linea"
-            android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigos de linea"
+        android:textAlignment="center"
+        android:textSize="24sp" />
 
     <ListView
         android:id="@+id/list_view_codigos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="5"/>
+        android:layout_weight="5"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/btnRegresoExistenciaClaves"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Regresar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

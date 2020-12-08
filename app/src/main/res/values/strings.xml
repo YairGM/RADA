@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Mueblera RADA</string>
     <string name="Producto">Nombre de producto</string>
+    <string name="usuario">Correo</string>
+    <string name="contraseña">contraseña</string>
+    <string name="entrar">Acceder</string>
     <string-array name="tipolinea">
         <item>Seleccione linea</item>
         <item>Colchones</item>

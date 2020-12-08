@@ -117,8 +117,9 @@ public class registro_producto extends AppCompatActivity {
         String Cantidad = cantidad.getText().toString();
         String Autoriza = autoriza.getText().toString();
 
-        if (lineas.equals("")||claves.equals("")||cantidad.equals("")||autoriza.equals("")){
-            validacion();
+        if (cantidad.getText().toString().length()==0||lineas.equals("")||claves.equals("")||autoriza.getText().toString().length()==0){
+            cantidad.setError("Ingresar cantidad");
+            autoriza.setError("Ingresar cantidad");
         }
         else {
             entrada p = new entrada();
@@ -143,13 +144,13 @@ public class registro_producto extends AppCompatActivity {
     private void validacion() {
         String Lineas = lineas.getSelectedItem().toString();
         String Claves = claves.getSelectedItem().toString();
-        String Cantidad = cantidad.getText().toString();
-        String Autoriza = autoriza.getText().toString();
+        boolean Cantidad = cantidad.getText().toString().isEmpty();
+        boolean Autoriza = autoriza.getText().toString().isEmpty();
 
-        if (Cantidad.equals("")){
+        if (cantidad.getText().toString().length()==0){
             cantidad.setError("Ingresar cantidad");
         }
-        else if (Autoriza.equals("")){
+        else if (autoriza.getText().toString().length()==0){
             autoriza.setError("Ingresar nombre de quien autoriza");
         }
     }
